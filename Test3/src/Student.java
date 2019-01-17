@@ -27,3 +27,4 @@ public Student(String name, int gebJahr, String studiengang) {
 		Student s1 = new Student ("Benni" , 1994, "IMA");
 		s1.ausgeben();
 }
+}

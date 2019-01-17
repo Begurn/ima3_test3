@@ -22,4 +22,8 @@ public Student(String name, int gebJahr, String studiengang) {
 	public void ausgeben(){
 		System.out.println(name + " / " + studiengang);
 	}
+	
+	public static void man(String[] args) {
+		Student s1 = new Student ("Benni" , 1994, "IMA");
+		s1.ausgeben();
 }
